@@ -1,4 +1,5 @@
-Food Classification Using Deep Learning
+**Food Classification Using Deep Learning**
+
 This project is a complete end-to-end food image classification system built using Deep Learning and Flask.
 The goal is to identify the type of food from an uploaded image and display the predicted food category along with its nutrition values.
 
