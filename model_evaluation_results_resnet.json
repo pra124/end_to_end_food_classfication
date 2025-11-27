@@ -1,0 +1,990 @@
+{
+    "cheesecake": {
+        "model_used": "resnetf1",
+        "accuracy": 0.5758,
+        "precision": 0.7,
+        "recall": 0.5451,
+        "f1_score": 0.6129,
+        "true_positive": 133,
+        "false_positive": 57,
+        "false_negative": 111,
+        "true_negative": 95,
+        "confusion_matrix_full": [
+            [
+                133,
+                39,
+                72
+            ],
+            [
+                44,
+                43,
+                9
+            ],
+            [
+                13,
+                43,
+                0
+            ]
+        ]
+    },
+    "sushi": {
+        "model_used": "resnetf1",
+        "accuracy": 0.6591,
+        "precision": 0.344,
+        "recall": 0.4479,
+        "f1_score": 0.3891,
+        "true_positive": 43,
+        "false_positive": 82,
+        "false_negative": 53,
+        "true_negative": 218,
+        "confusion_matrix_full": [
+            [
+                133,
+                39,
+                72
+            ],
+            [
+                44,
+                43,
+                9
+            ],
+            [
+                13,
+                43,
+                0
+            ]
+        ]
+    },
+    "kaathi_rolls": {
+        "model_used": "resnetf1",
+        "accuracy": 0.654,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 81,
+        "false_negative": 56,
+        "true_negative": 259,
+        "confusion_matrix_full": [
+            [
+                133,
+                39,
+                72
+            ],
+            [
+                44,
+                43,
+                9
+            ],
+            [
+                13,
+                43,
+                0
+            ]
+        ]
+    },
+    "ice_cream": {
+        "model_used": "resnetf2",
+        "accuracy": 0.6667,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 96,
+        "true_negative": 192,
+        "confusion_matrix_full": [
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ]
+        ]
+    },
+    "Fries": {
+        "model_used": "resnetf2",
+        "accuracy": 0.3333,
+        "precision": 0.3333,
+        "recall": 1.0,
+        "f1_score": 0.5,
+        "true_positive": 96,
+        "false_positive": 192,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ]
+        ]
+    },
+    "Donut": {
+        "model_used": "resnetf2",
+        "accuracy": 0.6667,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 96,
+        "true_negative": 192,
+        "confusion_matrix_full": [
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ]
+        ]
+    },
+    "dal_makhani": {
+        "model_used": "resnetf3",
+        "accuracy": 0.3103,
+        "precision": 0.0609,
+        "recall": 0.1186,
+        "f1_score": 0.0805,
+        "true_positive": 7,
+        "false_positive": 108,
+        "false_negative": 52,
+        "true_negative": 65,
+        "confusion_matrix_full": [
+            [
+                7,
+                52,
+                0
+            ],
+            [
+                94,
+                20,
+                5
+            ],
+            [
+                14,
+                14,
+                26
+            ]
+        ]
+    },
+    "chapati": {
+        "model_used": "resnetf3",
+        "accuracy": 0.2888,
+        "precision": 0.2326,
+        "recall": 0.1681,
+        "f1_score": 0.1951,
+        "true_positive": 20,
+        "false_positive": 66,
+        "false_negative": 99,
+        "true_negative": 47,
+        "confusion_matrix_full": [
+            [
+                7,
+                52,
+                0
+            ],
+            [
+                94,
+                20,
+                5
+            ],
+            [
+                14,
+                14,
+                26
+            ]
+        ]
+    },
+    "pakode": {
+        "model_used": "resnetf3",
+        "accuracy": 0.8578,
+        "precision": 0.8387,
+        "recall": 0.4815,
+        "f1_score": 0.6118,
+        "true_positive": 26,
+        "false_positive": 5,
+        "false_negative": 28,
+        "true_negative": 173,
+        "confusion_matrix_full": [
+            [
+                7,
+                52,
+                0
+            ],
+            [
+                94,
+                20,
+                5
+            ],
+            [
+                14,
+                14,
+                26
+            ]
+        ]
+    },
+    "Baked potato": {
+        "model_used": "resnetf4",
+        "accuracy": 0.1918,
+        "precision": 0.2745,
+        "recall": 0.1124,
+        "f1_score": 0.1595,
+        "true_positive": 28,
+        "false_positive": 74,
+        "false_negative": 221,
+        "true_negative": 42,
+        "confusion_matrix_full": [
+            [
+                28,
+                220,
+                1
+            ],
+            [
+                56,
+                10,
+                1
+            ],
+            [
+                18,
+                22,
+                9
+            ]
+        ]
+    },
+    "kadai_paneer": {
+        "model_used": "resnetf4",
+        "accuracy": 0.1808,
+        "precision": 0.0397,
+        "recall": 0.1493,
+        "f1_score": 0.0627,
+        "true_positive": 10,
+        "false_positive": 242,
+        "false_negative": 57,
+        "true_negative": 56,
+        "confusion_matrix_full": [
+            [
+                28,
+                220,
+                1
+            ],
+            [
+                56,
+                10,
+                1
+            ],
+            [
+                18,
+                22,
+                9
+            ]
+        ]
+    },
+    "dhokla": {
+        "model_used": "resnetf4",
+        "accuracy": 0.8849,
+        "precision": 0.8182,
+        "recall": 0.1837,
+        "f1_score": 0.3,
+        "true_positive": 9,
+        "false_positive": 2,
+        "false_negative": 40,
+        "true_negative": 314,
+        "confusion_matrix_full": [
+            [
+                28,
+                220,
+                1
+            ],
+            [
+                56,
+                10,
+                1
+            ],
+            [
+                18,
+                22,
+                9
+            ]
+        ]
+    },
+    "jalebi": {
+        "model_used": "resnetf5",
+        "accuracy": 0.6742,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 58,
+        "true_negative": 120,
+        "confusion_matrix_full": [
+            [
+                0,
+                58,
+                0
+            ],
+            [
+                0,
+                65,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "momos": {
+        "model_used": "resnetf5",
+        "accuracy": 0.3652,
+        "precision": 0.3652,
+        "recall": 1.0,
+        "f1_score": 0.535,
+        "true_positive": 65,
+        "false_positive": 113,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                58,
+                0
+            ],
+            [
+                0,
+                65,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "masala_dosa": {
+        "model_used": "resnetf5",
+        "accuracy": 0.691,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 55,
+        "true_negative": 123,
+        "confusion_matrix_full": [
+            [
+                0,
+                58,
+                0
+            ],
+            [
+                0,
+                65,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "chole_bhature": {
+        "model_used": "resnetf6",
+        "accuracy": 0.5395,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 134,
+        "true_negative": 157,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                134
+            ],
+            [
+                0,
+                0,
+                61
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "pav_bhaji": {
+        "model_used": "resnetf6",
+        "accuracy": 0.7904,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 61,
+        "true_negative": 230,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                134
+            ],
+            [
+                0,
+                0,
+                61
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "Hot Dog": {
+        "model_used": "resnetf6",
+        "accuracy": 0.3299,
+        "precision": 0.3299,
+        "recall": 1.0,
+        "f1_score": 0.4961,
+        "true_positive": 96,
+        "false_positive": 195,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                134
+            ],
+            [
+                0,
+                0,
+                61
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "chai": {
+        "model_used": "resnetf7",
+        "accuracy": 0.7257,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 127,
+        "true_negative": 336,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                127
+            ],
+            [
+                0,
+                0,
+                240
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "chicken_curry": {
+        "model_used": "resnetf7",
+        "accuracy": 0.4816,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 240,
+        "true_negative": 223,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                127
+            ],
+            [
+                0,
+                0,
+                240
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "Taquito": {
+        "model_used": "resnetf7",
+        "accuracy": 0.2073,
+        "precision": 0.2073,
+        "recall": 1.0,
+        "f1_score": 0.3435,
+        "true_positive": 96,
+        "false_positive": 367,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                127
+            ],
+            [
+                0,
+                0,
+                240
+            ],
+            [
+                0,
+                0,
+                96
+            ]
+        ]
+    },
+    "Crispy Chicken": {
+        "model_used": "resnetf8",
+        "accuracy": 0.3404,
+        "precision": 0.3404,
+        "recall": 1.0,
+        "f1_score": 0.5079,
+        "true_positive": 96,
+        "false_positive": 186,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                96,
+                0,
+                0
+            ],
+            [
+                116,
+                0,
+                0
+            ],
+            [
+                70,
+                0,
+                0
+            ]
+        ]
+    },
+    "butter_naan": {
+        "model_used": "resnetf8",
+        "accuracy": 0.5887,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 116,
+        "true_negative": 166,
+        "confusion_matrix_full": [
+            [
+                96,
+                0,
+                0
+            ],
+            [
+                116,
+                0,
+                0
+            ],
+            [
+                70,
+                0,
+                0
+            ]
+        ]
+    },
+    "fried_rice": {
+        "model_used": "resnetf8",
+        "accuracy": 0.7518,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 70,
+        "true_negative": 212,
+        "confusion_matrix_full": [
+            [
+                96,
+                0,
+                0
+            ],
+            [
+                116,
+                0,
+                0
+            ],
+            [
+                70,
+                0,
+                0
+            ]
+        ]
+    },
+    "apple_pie": {
+        "model_used": "resnetf9",
+        "accuracy": 0.3068,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 235,
+        "true_negative": 104,
+        "confusion_matrix_full": [
+            [
+                0,
+                235,
+                0
+            ],
+            [
+                0,
+                49,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "samosa": {
+        "model_used": "resnetf9",
+        "accuracy": 0.1445,
+        "precision": 0.1445,
+        "recall": 1.0,
+        "f1_score": 0.2526,
+        "true_positive": 49,
+        "false_positive": 290,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                235,
+                0
+            ],
+            [
+                0,
+                49,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "pizza": {
+        "model_used": "resnetf9",
+        "accuracy": 0.8378,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 55,
+        "true_negative": 284,
+        "confusion_matrix_full": [
+            [
+                0,
+                235,
+                0
+            ],
+            [
+                0,
+                49,
+                0
+            ],
+            [
+                0,
+                55,
+                0
+            ]
+        ]
+    },
+    "kulfi": {
+        "model_used": "resnetf10",
+        "accuracy": 0.4,
+        "precision": 0.2308,
+        "recall": 0.9767,
+        "f1_score": 0.3733,
+        "true_positive": 42,
+        "false_positive": 140,
+        "false_negative": 1,
+        "true_negative": 52,
+        "confusion_matrix_full": [
+            [
+                42,
+                1,
+                0
+            ],
+            [
+                92,
+                4,
+                0
+            ],
+            [
+                48,
+                48,
+                0
+            ]
+        ]
+    },
+    "omelette": {
+        "model_used": "resnetf10",
+        "accuracy": 0.4,
+        "precision": 0.0755,
+        "recall": 0.0417,
+        "f1_score": 0.0537,
+        "true_positive": 4,
+        "false_positive": 49,
+        "false_negative": 92,
+        "true_negative": 90,
+        "confusion_matrix_full": [
+            [
+                42,
+                1,
+                0
+            ],
+            [
+                92,
+                4,
+                0
+            ],
+            [
+                48,
+                48,
+                0
+            ]
+        ]
+    },
+    "Sandwich": {
+        "model_used": "resnetf10",
+        "accuracy": 0.5915,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 96,
+        "true_negative": 139,
+        "confusion_matrix_full": [
+            [
+                42,
+                1,
+                0
+            ],
+            [
+                92,
+                4,
+                0
+            ],
+            [
+                48,
+                48,
+                0
+            ]
+        ]
+    },
+    "paani_puri": {
+        "model_used": "resnetf11",
+        "accuracy": 0.9058,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 29,
+        "true_negative": 279,
+        "confusion_matrix_full": [
+            [
+                0,
+                29,
+                0,
+                0
+            ],
+            [
+                0,
+                96,
+                0,
+                0
+            ],
+            [
+                0,
+                60,
+                0,
+                1
+            ],
+            [
+                0,
+                122,
+                0,
+                0
+            ]
+        ]
+    },
+    "Taco": {
+        "model_used": "resnetf11",
+        "accuracy": 0.3149,
+        "precision": 0.3127,
+        "recall": 1.0,
+        "f1_score": 0.4764,
+        "true_positive": 96,
+        "false_positive": 211,
+        "false_negative": 0,
+        "true_negative": 1,
+        "confusion_matrix_full": [
+            [
+                0,
+                29,
+                0,
+                0
+            ],
+            [
+                0,
+                96,
+                0,
+                0
+            ],
+            [
+                0,
+                60,
+                0,
+                1
+            ],
+            [
+                0,
+                122,
+                0,
+                0
+            ]
+        ]
+    },
+    "idli": {
+        "model_used": "resnetf11",
+        "accuracy": 0.8019,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 61,
+        "true_negative": 247,
+        "confusion_matrix_full": [
+            [
+                0,
+                29,
+                0,
+                0
+            ],
+            [
+                0,
+                96,
+                0,
+                0
+            ],
+            [
+                0,
+                60,
+                0,
+                1
+            ],
+            [
+                0,
+                122,
+                0,
+                0
+            ]
+        ]
+    },
+    "burger": {
+        "model_used": "resnetf11",
+        "accuracy": 0.6006,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 1,
+        "false_negative": 122,
+        "true_negative": 185,
+        "confusion_matrix_full": [
+            [
+                0,
+                29,
+                0,
+                0
+            ],
+            [
+                0,
+                96,
+                0,
+                0
+            ],
+            [
+                0,
+                60,
+                0,
+                1
+            ],
+            [
+                0,
+                122,
+                0,
+                0
+            ]
+        ]
+    }
+}
